@@ -1,0 +1,134 @@
+/* 
+ * Created on : 02.09.2023, 19:00:24
+ * Author: Alexander Pisarev aka Deaddy
+ * deaddy at autos dot kz
+ *
+ */
+
+.sub-menu-toggle {
+    display: none;
+}
+
+.pp-menu-d74eff8 {
+    background: url("/wp-content/uploads/2023/09/qss-menu-bg1.webp") no-repeat center left;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    top: 100px;
+}
+
+body > nav.pp-advanced-menu--dropdown.pp-menu-style-toggle.pp-advanced-menu__container.pp-menu-d74eff8.pp-menu-off-canvas.pp-menu-off-canvas-left {
+    top: 100px;
+}
+
+.pp-menu-a80c4a9 {
+    background: url("/wp-content/uploads/2023/10/Qmobmenu.png") no-repeat center left;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    top: 0px;
+}
+
+/*.pp-advanced-menu--dropdown.pp-menu-off-canvas*/
+.pp-menu-a80c4a9 {
+    top: 100px;
+}
+
+.pp-menu-clear {
+    background: initial;
+}
+
+.hdr-searchbutton {
+    color: white;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 12px;
+}
+
+.hdr-searchbutton:hover {
+    background-color: #386ACA;
+}
+
+input {
+  outline: none;
+}
+
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+.d_bbutton {
+    margin-top: 20px;
+    background-color: #386ACA;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 60px;
+    font-size: 14px;
+    font-family: 'TT Norms Pro';
+    font-weight: 700;
+    outline: none;
+    border: none;    
+}
+
+.d_brc {
+    color: rgb(122, 122, 122);
+/*    font-family: 'TT Norms Pro';*/
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.d_brc a {
+/*    font-family: 'TT Norms Pro';*/
+    color: black;
+}
+
+a.d_mobm_z, a.d_mobm_z:hover, a.d_mobm_z:active, a.d_mobm_z:visited {
+    color: #386ACA;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 700;
+    width: 75%;
+    /* max-width: 75%; */
+    /* text-align: center; */
+    border-radius: 20px;
+    font-family: 'TT Norms Pro';
+    text-decoration: none;
+}
+
+body.pp-menu--off-canvas .pp-advanced-menu--dropdown.pp-menu-a80c4a9 .pp-menu-close-wrap, .elementor-21 .elementor-element.elementor-element-a80c4a9 .pp-advanced-menu--type-full-screen .pp-advanced-menu--dropdown.pp-advanced-menu__container .pp-menu-close-wrap {
+    top: 92%;
+}
+
+li.menu-item-1013 > a.pp-menu-item, .menu-item-1013 > div > a.pp-menu-item, li.menu-item-1041 > a.pp-menu-item, .menu-item-1041 > div > a.pp-menu-item, li.menu-item-1063 > a.pp-menu-item, .menu-item-1063 > div > a.pp-menu-item {
+    display: none;
+}
+
+li.menu-item-1013, li.menu-item-1041, li.menu-item-1063 {
+    padding: 0px;
+    max-width: 42px;
+    position: fixed;
+    top: 92%;
+    left: 20px;
+}
+
+li.menu-item-1013 > div > a.d-hdr-lang, li.menu-item-1041 > div > a.d-hdr-lang, li.menu-item-1063 > div > a.d-hdr-lang  {
+    padding: 0;
+    margin: 0;
+}
+
+.srch-head
+{
+    margin-top: 100px;
+}
+
+.srch-h1 {
+    font-family: 'TT Norms Pro';
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.page-header {
+    border: none;
+}
+
